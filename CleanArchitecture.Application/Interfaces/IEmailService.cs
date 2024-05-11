@@ -2,8 +2,8 @@
 
 namespace CleanArchitecture.Application.Interfaces
 {
-    public interface IDatabaseService
+    public interface IEmailService
     {
-        int CreateUser(User user);
+        bool SendConfirmationEmail(User user);
     }
 }
